@@ -10,7 +10,10 @@ module.exports = {
     		"emerald": colors.emerald,
     		"teal": colors.teal,
     		"cyan": colors.cyan,
-    		"rose": colors.rose
+    		"rose": colors.rose,
+    		"violet": colors.violet,
+    		"fuchsia": colors.fuchsia,
+    		"indigo": colors.indigo
     	}
     },
   },

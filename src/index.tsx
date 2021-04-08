@@ -6,7 +6,10 @@ import Landing from './views/Landing'
 const App: React.FC = () => {
   return(
     <>
-      <Landing />
+    	<style>
+			@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+		</style>
+    	<Landing />
     </>
   )
 }

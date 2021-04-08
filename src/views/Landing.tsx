@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 
 const Landing: React.FC = () => {
     return(
-        <div className="bg-gray-900">
-        	<div className="border border-gray-900">
-				<Navbar />            
-        	</div>
+        <div className="space-y-4 h-screen w-screen bg-gray-900">
+			<Navbar />            
+        	<Hero />
         </div>
     )
 }

@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
 	const [dropdown, setDropdown] = React.useState(false)
 
 	return(
-		<nav style={{fontFamily:"'Cairo', sans-serif"}} className="space-y-4 px-8 py-4 lg:px-16">
+		<nav style={{fontFamily:"'Cairo', sans-serif"}} className="space-y-4 bg-gray-800 px-8 py-4 lg:px-16">
 			<div className="flex items-center justify-between">
 				<h1 className="text-transparent tracking-wider bg-clip-text bg-gradient-to-br from-cyan-300 to-fuchsia-500 font-bold text-3xl">
 					vybe

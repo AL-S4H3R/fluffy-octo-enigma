@@ -7,8 +7,8 @@ const App: React.FC = () => {
   return(
     <>
     	<style>
-			@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-		</style>
+			@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Noto+Sans:ital@0;1&display=swap');
+		</style> 
     	<Landing />
     </>
   )

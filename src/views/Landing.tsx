@@ -1,11 +1,11 @@
 import React from 'react'
-import Container from '../components/Container'
+import Navbar from '../components/Navbar'
 
 const Landing: React.FC = () => {
     return(
-        <Container>
-            <h1>Landing Page</h1>
-        </Container>
+        <div className="px-8 py-4 lg:px-16 bg-gray-900">
+			<Navbar />            
+        </div>
     )
 }
 
